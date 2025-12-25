@@ -1,13 +1,31 @@
 {
   "manifest_version": 3,
-  "name": "Phone Number Inserter",
-  "version": "1.0",
-  "description": "Insert my phone number into text fields",
+  "name": "Quick Personal Info Inserter",
+  "version": "1.2",
+  "description": "Insert personal info into form fields using keyboard shortcuts",
   "permissions": ["activeTab", "scripting"],
   "commands": {
+    "insert-first-name": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1"
+      },
+      "description": "Insert first name"
+    },
+    "insert-last-name": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2"
+      },
+      "description": "Insert last name"
+    },
+    "insert-email": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+3"
+      },
+      "description": "Insert email address"
+    },
     "insert-phone": {
       "suggested_key": {
-        "default": "Ctrl+Shift+P"
+        "default": "Ctrl+Shift+4"
       },
       "description": "Insert phone number"
     }
